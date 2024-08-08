@@ -1,6 +1,6 @@
 package aplicacao.nevegador;
 
-public class Pesquisa implements Navegador {
+public class Pesquisa implements MenuNavegador {
 
 
 public void exibirPagina(){

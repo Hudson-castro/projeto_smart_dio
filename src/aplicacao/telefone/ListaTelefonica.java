@@ -1,6 +1,6 @@
 package aplicacao.telefone;
 
-public class ListaTelefonica implements AparelhoTelefonico {
+public class ListaTelefonica implements MenuTelefone {
 
     public void ligar (){
         System.out.println("Telefone esta Chamando ");

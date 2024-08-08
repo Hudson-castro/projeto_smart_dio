@@ -1,6 +1,6 @@
 package aplicacao.telefone;
 
-public interface AparelhoTelefonico {
+public interface MenuTelefone {
 
     
     public void ligar () ;

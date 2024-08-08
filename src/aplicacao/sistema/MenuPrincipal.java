@@ -4,18 +4,18 @@ import java.util.Scanner;
 
 import aplicacao.musica.MenuMusica;
 import aplicacao.musica.ReprodutorMusica;
-import aplicacao.nevegador.Navegador;
+import aplicacao.nevegador.MenuNavegador;
 import aplicacao.nevegador.Pesquisa;
-import aplicacao.telefone.AparelhoTelefonico;
+import aplicacao.telefone.MenuTelefone;
 import aplicacao.telefone.ListaTelefonica;
 
-public class Menu {
+public class MenuPrincipal {
 
     public static void main(String[] args) {
 
-        AparelhoTelefonico telefone = new ListaTelefonica();
+        MenuTelefone telefone = new ListaTelefonica();
         ReprodutorMusica musica = new MenuMusica ();
-        Navegador web = new Pesquisa();
+        MenuNavegador web = new Pesquisa();
 
 
         final int TELEFONE = 1 ; 
@@ -24,7 +24,7 @@ public class Menu {
 
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("          WECOME IPHONE           ");
+        System.out.println("          WELCOME IPHONE           ");
         System.out.println("--------------------------------- ");
         System.out.println(" 1) TELEFONE  ");
         System.out.println(" 2) MUSICA ");

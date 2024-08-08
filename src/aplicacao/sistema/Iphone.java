@@ -1,11 +1,11 @@
 package aplicacao.sistema;
 
 import aplicacao.musica.ReprodutorMusica;
-import aplicacao.nevegador.Navegador;
-import aplicacao.telefone.AparelhoTelefonico;
+import aplicacao.nevegador.MenuNavegador;
+import aplicacao.telefone.MenuTelefone;
 import aplicacao.telefone.ListaTelefonica;
 
-public class Iphone  implements ReprodutorMusica , AparelhoTelefonico , Navegador {
+public class Iphone  implements ReprodutorMusica , MenuTelefone , MenuNavegador {
 
    
     public void tocar () {

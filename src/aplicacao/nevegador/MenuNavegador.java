@@ -1,6 +1,6 @@
 package aplicacao.nevegador;
 
-public interface Navegador {
+public interface MenuNavegador {
 
 
     public void exibirPagina();
